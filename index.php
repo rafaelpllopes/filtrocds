@@ -140,7 +140,7 @@ function dataHora($dtime){
 				}
 					?>
 					<table class="table table-striped">
-					<caption>Cadastros de fichas no e-sus</caption>
+					<caption>Cadastros de fichas no e-sus, foi encontrado <?=count($fichas)?> registro(s).</caption>
 					<thead>
 						<tr>
 							<th>Código</th>
@@ -171,12 +171,6 @@ function dataHora($dtime){
 				}
 			?>		
 					</tbody>
-					<tfoot>
-						<tr>
-							<td colspan="7">Foi encontrado <?=count($fichas)?> registro(s).</td>
-						</tr>
-						
-					</tfoot>
 			</table>
 		</section>
 		
